@@ -12,7 +12,6 @@ a.skip{
 a.skip:focus{
     top:20px;
     color: black;
-    text-decoration-style: solid;
 }
 
 a{
