@@ -1,0 +1,85 @@
+body{
+    background-color: grey;
+}
+
+a{
+    color: maroon;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    background-image: url("/images/background.jpeg");
+}
+
+.container{
+    display: grid;
+    width: 80%;
+    margin: auto;
+    padding-top: 35px;
+    padding-bottom: 55px;
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+    justify-items: center;
+}
+
+.container > div{
+    background-color: white;
+    padding-bottom: 15px;
+}
+
+.container > div > img{
+    align-self: center;
+}
+
+h2{
+    padding-top: 7px;
+    margin-bottom: 7px;
+    color: black;
+    text-align: center;
+    border-bottom: solid 5px maroon;
+}
+
+h3{
+    color: black;
+    padding-left: 15px;
+}
+
+div > a{
+    margin-left: 15px;
+}
+
+.recipe > li{
+    color: black;
+}
+
+.recipe{
+    list-style-type: disc;
+    padding-left: 25px;
+}
+
+@media screen and (min-width: 600px){
+    .container{
+        display: grid;
+        width: 80%;
+        margin: auto;
+        padding-top: 35px;
+        padding-bottom: 55px;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 25px;
+        row-gap: 25px;
+    }
+}
+
+@media screen and (min-width: 820px){
+    .container{
+        display: grid;
+        width: 80%;
+        margin: auto;
+        padding-top: 35px;
+        padding-bottom: 55px;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 25px;
+        row-gap: 25px;
+    }
+}

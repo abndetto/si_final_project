@@ -38,8 +38,6 @@ nav{
     width: 100%;
     display: inline;
     margin: auto;
-    
-    place-content: right;
 }
   
 .nav_item{
@@ -48,6 +46,7 @@ nav{
     font-size: larger;
     display: block;
     text-decoration: underline;
+    padding-top: 10px;
 }
 
 .nav_items > a{
@@ -60,7 +59,7 @@ body{
 
 main{
     color: lightgrey;
-    width: 85%;
+    width: 100%;
     margin-bottom: 15%;
 }
 
@@ -78,33 +77,41 @@ h1{
     color:maroon;
     background-color: white;
     padding: 25px;
-
 }
 
 #logo{
     display: none;
 }
 
-@media screen and (min-width: 600px){
+.recipes{
+    display: inline;
+}
+
+@media screen and (min-width: 820px){
 
     main{
         color: white;
-        margin: 0 15% 15% 15%;
+        /* margin: 0 15% 15% 15%; */
     }
 
     nav{
         padding: 10px;
-        display: inline;
-        margin-right: 15%;
-        margin: auto;
+        display: inline-block;
     }
 
     .nav_links{
-        display: block;
+        width: 100%;
+    }
+
+    .nav_links > li{
+        display: inline;
+        padding-right: 25px;
+        float: right;
     }
 
     #logo{
         display: inline;
+        float:left;
         margin: auto 25px auto 30px;
         max-height: 100px;
         max-width: 100px;
@@ -124,7 +131,6 @@ h1{
         text-align: left;
         margin: auto auto auto 0;
         padding-left: 15px;
-
     }
 }
 

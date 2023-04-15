@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+}
+
+.flexContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.flexItem{
+    flex-basis: 450px;
+    max-width: 65%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+}
+
+main{
+    width: 80%;
+    background-image: url("/images/background.jpeg");
+    margin: 0 10% 0 10%;
+}
+
+.flexContainer > div:first-child{
+    padding-top: 25px;
+}
+
+.flexContainer > div > img{
+    width: 150%;
+    align-items: center;
+}
+
+h2{
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+h3{
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: 400;
+    color: white;
+    border-bottom: 3px solid white;
+    width: min-content;
+}
+
+.recipe{
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+li{
+    list-style-type: disc;
+}
+
+ul{
+    padding-top: 7px;
+}
+
+#recLink{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+}
+
+
+
+@media screen and (min-width: 820px) {
+
+
+}
