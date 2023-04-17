@@ -19,7 +19,7 @@ body{
 
 main{
     width: 80%;
-    background-image: url("/images/background.jpeg");
+    background-image: url("images/background.jpeg");
     margin: 0 10% 0 10%;
 }
 
