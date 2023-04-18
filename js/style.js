@@ -28,11 +28,6 @@ document.getElementsByClassName("foodImg")[5].addEventListener("click", function
     alert(altMessage);
 })
 
-document.getElementsByClassName("foodImg")[0].addEventListener("click", function(){
-    let altMessage = this.alt;
-    alert(altMessage);
-})
-
 document.getElementsByClassName("foodImg")[6].addEventListener("click", function(){
     let altMessage = this.alt;
     alert(altMessage);
@@ -47,3 +42,4 @@ document.getElementsByClassName("foodImg")[8].addEventListener("click", function
     let altMessage = this.alt;
     alert(altMessage);
 })
+
