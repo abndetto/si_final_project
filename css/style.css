@@ -16,10 +16,6 @@ a{
     color: black;
     border-bottom: black 1px solid;
 }
-  
-*:focus{
-    border: 2px solid black;
-}
 
 p{
     color: black;
